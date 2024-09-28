@@ -22,14 +22,18 @@ The **SIR model** is a simple but powerful epidemiological model used to simulat
 3. **R (Recovered)**: Individuals who have recovered from the disease and are immune.
 
 ### Model Equations:
-- \(\frac{dS}{dt} = -\beta \cdot S \cdot I / N\)
-- \(\frac{dI}{dt} = \beta \cdot S \cdot I / N - \gamma \cdot I\)
-- \(\frac{dR}{dt} = \gamma \cdot I\)
+The **SIR model** equations are as follows:
+
+- dS/dt = - (β * S * I) / N
+- dI/dt = (β * S * I) / N - γ * I
+- dR/dt = γ * I
 
 Where:
-- \(\beta\) is the transmission rate.
-- \(\gamma\) is the recovery rate.
-- \(N\) is the total population.
+
+- **β** is the transmission rate.
+- **γ** is the recovery rate.
+- **N** is the total population.
+
 
 The SIR model helps us estimate how a disease spreads over time and predict the number of susceptible, infected, and recovered individuals.
 
